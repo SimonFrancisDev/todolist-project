@@ -1,0 +1,91 @@
+body {
+    background-color: navy;
+    color: greenyellow;
+    font-family: gabriola;
+    font-size: larger;
+    margin-bottom: 100px;
+}
+
+input {
+    padding: 7px;
+    width: 200px;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.add-todo {
+    background-color: greenyellow;
+    width: 100px;
+    padding: 4px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: navy;
+    text-transform: lowercase;
+    font-family: gabriola;
+    font-size: 12px;
+    transition: all 0.5s;
+}
+
+.add-todo:hover {
+    background-color: white;
+    color: blue;
+    outline: none;
+    transform: translateY(-1px);
+}
+
+.del-btn {
+    background-color: red;
+    width: 100px;
+    padding: 4px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    text-transform: lowercase;
+    font-family: gabriola;
+    font-size: 12px;
+    transition: all 0.5s;
+}
+
+.del-btn:hover {
+    background-color: purple;
+    color: greenyellow;
+    outline: none;
+    transform: translateY(-1px);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.container-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    column-gap: 10px;
+}
+
+.output {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.todo-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
